@@ -1,23 +1,23 @@
 {
     "leader_id" : "14532",
-    "load" : 0,
-    "explorer" : 0,
+    "load" : 1,
+    "explorer" : 1,
     "peek_limit" : 100,
-    "dbname" : "trinity",
-    "dbuser" : "root",
-    "dbpass" : "root",
-    "dbport": 4000,
+    "dbname" : "blockchain_bitra",
+    "dbuser" : "",
+    "dbpass" : "",
+    "dbport": ,
     "loglevel" : "info",
     "feeder_interval_ms" : 100,
     "cashier_interval_ms" : 0,
     "cashier_chunk_size" : 2,
     "pending_size" : 10,
-    "block_reward" : 9.656e10,
+    "block_reward" : 2.656e10,
     "reward_ratio":{
-        "pos": 4400,
-        "poa": 4000,
-        "pow": 600,
-        "ref": 400
+        "pos": 44,
+        "poa": 40,
+        "pow": 6,
+        "ref": 4
     },
 	"poa_hearbeat_interval_ms" : 25000,
 	"poa_min_interval_ms" : 1000,
@@ -41,7 +41,7 @@
     "native_token_hash" : "0000000000000000000000000000000000000000000000000000000000000000",
     "snapshot_interval": 3,
     "snapshot_file":"snapshot.json",
-    "TRUNK": "BITGENESIS",
+    "TRUNK": "BITRAGENESIS",
     "ORIGIN": {
         "publisher": "029dd222eeddd5c3340e8d46ae0a22e2c8e301bfee4903bcf8c899766c8ceb3a7d",
         "reward": 338348170e10
