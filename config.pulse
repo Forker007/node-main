@@ -9,10 +9,10 @@
   "cashier_interval_ms": 10,
   "cashier_chunk_size": 10,
   "reward_ratio":{
-    "pos": 5500,
-    "poa": 3181,
-    "pow": 500,
-    "ref": 819
+    "pos": 100,
+    "poa": 81,
+    "pow": 5,
+    "ref": 1
   },
   "block_reward":30460000000,
   "poa_hearbeat_interval_ms": 25000,
@@ -47,10 +47,10 @@
     "key" : "0410591dc8b3bba89f949212982f05deeb4a1947e939c62679dfc7610c62"
   },
   "fee_shares":  {
-      "gen_share": 300,
-      "pow_share": 50,
-      "ldr_share": 50,
-      "pos_share": 9600
+      "gen_share": 1,
+      "pow_share": 1,
+      "ldr_share": 1,
+      "pos_share": 1
   },
   "stake_limits": {
     "min_stake": 25e10,
