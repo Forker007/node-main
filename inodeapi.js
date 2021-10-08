@@ -20,7 +20,7 @@ const CONFIG_FILENAME = 'config.json';
 
 let config = {
     dbhost : 'localhost',
-    dbname : 'trinity',
+    dbname : 'blockchain_bitra',
     dbuser : 'root',
     dbpass : '',
     loglevel : 'silly'
