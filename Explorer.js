@@ -43,26 +43,26 @@ class Explorer {
 		  definition: {
 		    openapi: '3.0.0', // Specification (optional, defaults to swagger: '2.0')
 		    info: {
-		      title: 'Enecuum Node API', // Title (required)
+		      title: 'Bitranium Node API', // Title (required)
 		      version: '1.0.0', // Version (required)
 		      description: `|
-    Enecuum is a cryptocurrency project designed to involve both mobile and desktop devices into one blockchain network. Enecuum provides a payment platform with the use of a native token. Enecuum's native token, ENQ, can be bought on the exchange, by card, or mined on PCs and smartphones. 
+    Bitranium is a cryptocurrency project designed to involve both mobile and desktop devices into one blockchain network. Bitranium provides a payment platform with the use of a native token. Bitranium's native token, BITRA, can be bought on the exchange, by card, or mined on PCs and smartphones. 
 
-    Below, you can read a short explanation of the basic terms and concepts related to Enecuum and cryptocurrency in general. The description will help you better understand the Enecuum API.
+    Below, you can read a short explanation of the basic terms and concepts related to Bitranium and cryptocurrency in general. The description will help you better understand the Bitranium API.
     
-    When a user creates an account in the Enecuum network, a pair of public and private keys is generated. 
+    When a user creates an account in the Bitranium network, a pair of public and private keys is generated. 
 
     **The public key** is a user's identification. It is used as a wallet address. The user can safely share the public key to receive payments.
 
     **The private key** acts as a password. It is used to access the account. The user must never share the private key. The private key needs to be backed up. If a private key is lost, the account will never be recovered.
 
-    Enecuum has a native token, ENQ, which is used for payments in the Enecuum network. Enecuum also allows the issue of custom tokens. Each token has two unique identifiers: ticker and hash. A **ticker** is a 1-6 letter name used for convenience. A **hash** is a 64-character sequence that acts as a technical identification. 
+    Bitranium has a native token, ENQ, which is used for payments in the Bitranium network. Bitranium also allows the issue of custom tokens. Each token has two unique identifiers: ticker and hash. A **ticker** is a 1-6 letter name used for convenience. A **hash** is a 64-character sequence that acts as a technical identification. 
 
-    Each token token has a fixed number of **decimal places**. When using Enecuum API, the methods will return the token amount as an integer. Because of this, the returned amount is multiplied by 10^*d*, where *d* stands for the number of decimal places. For example, ENQ has 10 decimal places. The returned amount 250050000000 correlates with 25.005 ENQ.
+    Each token token has a fixed number of **decimal places**. When using Bitranium API, the methods will return the token amount as an integer. Because of this, the returned amount is multiplied by 10^*d*, where *d* stands for the number of decimal places. For example, ENQ has 10 decimal places. The returned amount 250050000000 correlates with 25.005 ENQ.
     `
 		    },
 		    servers:{
-				url: 'https://bit.enecuum.com/api/v1'
+				url: 'https://bit.bitranium.com/api/v1'
 		    },
 		  },
 		  // Path to the API docs
